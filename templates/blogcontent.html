@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+  
+  <h1>{{blog.name}}</h1>
+  <h5>{{blog.title}}</h5>
+  <img src="media/{{ blog.thmbnail }}" class="bd-placceholder-img" width='100px' height='100px' alt="">                                                    
+  <p>{{blog.content}}</p>
+
+</div>
+
+{% endblock content %}
